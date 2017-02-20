@@ -7,7 +7,7 @@ public class dicecup {
         new dicecup();
     }
 
-    public dicecup() throws IOException {
+    private dicecup() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String[] input = reader.readLine().split(" ");
         int n = Integer.parseInt(input[0]);

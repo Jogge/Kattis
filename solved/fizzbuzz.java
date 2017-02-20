@@ -7,7 +7,7 @@ public class fizzbuzz {
         new fizzbuzz();
     }
 
-    public fizzbuzz() throws IOException {
+    private fizzbuzz() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String[] input = reader.readLine().split(" ");
         long x = Long.parseLong(input[0]);

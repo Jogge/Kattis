@@ -7,7 +7,7 @@ public class twostones {
         new twostones();
     }
 
-    public twostones() throws IOException {
+    private twostones() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         long n = Long.parseLong(reader.readLine());
 
